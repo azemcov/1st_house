@@ -1,0 +1,27 @@
+<!doctype html>
+  <html lang="ru">
+    <head>
+      <meta charset="UTF-8" />
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <section>
+        <div id="box">
+          <div class="front big"></div>
+          <div class="back big"></div>
+          <div class="left small"></div>
+          <div class="right small"></div>
+          <div class="top big"></div>
+          <div class="bottom big">bottom</div>
+        </div>
+      </section>
+      <article>
+        <input type="range" id="x" min="-360" max="360" step="1" value="150" oninput="rx()"/>
+        <br />
+        <br />
+        <input type="range" id="y" min="-360" max="360" step="1" value="-30" oninput="ry()"/>
+      </article>
+    </body>
+    <script src="code.js"></script>
+  </html>

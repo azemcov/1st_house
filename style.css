@@ -1,0 +1,88 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html {font-size: 15px;}
+
+body {
+  background: gray;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 90%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: monospace;
+  font-size: 70px;
+}
+
+#box {
+  transform-style: preserve-3d;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  transform: rotateX(150deg) rotateY(-30deg);
+}
+
+.big {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+}
+
+.small {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.front {
+  background-image: url(https://foni.club/uploads/posts/2022-02/1643763314_1-foni-club-p-tekstura-panelnogo-doma-1.jpg);
+  background-size: 100% 150%;
+  transform: translateZ(50px) rotateX(180deg);
+}
+
+.back {
+  background-image: url(https://foni.club/uploads/posts/2022-02/1643763314_1-foni-club-p-tekstura-panelnogo-doma-1.jpg);
+  background-size: 100% 150%;
+  transform: translateZ(-50px) rotateX(180deg);
+}
+
+.left {
+  background-image: url(https://junior3d.ru/texture/%D0%91%D0%B5%D1%82%D0%BE%D0%BD/%D0%93%D1%80%D1%8F%D0%B7%D0%BD%D0%B0%D1%8F%D0%A8%D1%82%D1%83%D0%BA%D0%B0%D1%82%D1%83%D1%80%D0%BA%D0%B0/%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%B0%D1%8F-%D1%88%D1%82%D1%83%D0%BA%D0%B0%D1%82%D1%83%D1%80%D0%BA%D0%B0_85.jpg);
+  background-size: 200% 300%;
+  transform: translateX(-150px) rotateY(90deg) rotateX(180deg);
+}
+
+.right {
+  background-image: url(https://junior3d.ru/texture/%D0%91%D0%B5%D1%82%D0%BE%D0%BD/%D0%93%D1%80%D1%8F%D0%B7%D0%BD%D0%B0%D1%8F%D0%A8%D1%82%D1%83%D0%BA%D0%B0%D1%82%D1%83%D1%80%D0%BA%D0%B0/%D0%B3%D1%80%D1%8F%D0%B7%D0%BD%D0%B0%D1%8F-%D1%88%D1%82%D1%83%D0%BA%D0%B0%D1%82%D1%83%D1%80%D0%BA%D0%B0_85.jpg);
+  background-size: 400% 500%;
+  transform: translateX(150px) rotateY(-90deg);
+}
+
+.top {
+  background-image: url(https://phonoteka.org/uploads/posts/2021-06/1623088932_16-phonoteka_org-p-tekstura-starogo-betona-krasivo-23.jpg);
+  background-size: 300% 200%;
+  transform: translateY(50px) rotateX(-90deg);
+}
+
+.bottom {
+  transform: translateY(-50px) rotateX(90deg);
+  background-color: gray;
+}
